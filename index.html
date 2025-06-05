@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flakes Movies</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Flakes</div>
+    
+      <nav class="nav-links">
+  <a href="#">Home</a>
+  <a href="#new">New Releases</a>
+  <a href="#trend">Trending</a>
+  <a href="#best">Top Rated</a>
+  <a href="#">Genres</a>
+  <a class="btn-login" href="/Login/login.html">Login</a>
+  <a class="btn-signup" href="/Signup/signup.html">Sign Up</a>
+</nav>
+
+   
+    </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <!---Hero Section-->
+
+  <section class="hero">
+    <div class="hero-wrapper">
+      <div class="hero-content">
+        <h1>Avengers: Endgame</h1>
+        <p>The epic conclusion to the Infinity Saga. Earth's mightiest heroes unite for one final battle to undo Thanos' devastating snap.</p>
+        <button class="btn watch-btn">Watch Now</button>
+      </div>
+      <img class="hero-image" src="img/5.jpg" alt="Avengers" />
+    </div>
+  </section>
+
+  <!-- Sections -->
+  <main class="content">
+    <section class="movie-section">
+  <a id="new"class="section-headline">New Releases</a>
+  <div class="movie-grid" id="new-releases">
+    <div class="movie-list-item">
+  <img class="movie-list-item-img" src="/img/18.jpg" alt="Godzilla x Kong: The New Empire">
+  <span class="movie-list-item-title">Godzilla x Kong: The New Empire</span>
+  <p class="movie-list-item-desc">The epic sequel bringing two titans into an all-out battle to determine who reigns supreme.</p>
+  <button class="movie-list-item-button">Watch</button>
+</div>
+
+<div class="movie-list-item">
+  <img class="movie-list-item-img" src="/img/17.jpg" alt="Kingdom of the Planet of the Apes">
+  <span class="movie-list-item-title">Kingdom of the Planet of the Apes</span>
+  <p class="movie-list-item-desc">The next chapter in the apes' saga as new threats challenge their survival.</p>
+  <button class="movie-list-item-button">Watch</button>
+</div>
+
+<div class="movie-list-item">
+  <img class="movie-list-item-img" src="/img/11.jpg" alt="IF">
+  <span class="movie-list-item-title">IF</span>
+  <p class="movie-list-item-desc">An inspiring story about hope, dreams, and making the impossible possible.</p>
+  <button class="movie-list-item-button">Watch</button>
+</div>
+
+<div class="movie-list-item">
+  <img class="movie-list-item-img" src="/img/12.jpg" alt="Civil War">
+  <span class="movie-list-item-title">Civil War</span>
+  <p class="movie-list-item-desc">Heroes clash in a battle that will redefine their allegiances and futures.</p>
+  <button class="movie-list-item-button">Watch</button>
+</div>
+
+<div class="movie-list-item">
+  <img class="movie-list-item-img" src="/img/14.jpg" alt="The Fall Guy">
+  <span class="movie-list-item-title">The Fall Guy</span>
+  <p class="movie-list-item-desc">A thrilling action-adventure about a stuntman caught in a web of danger and deceit.</p>
+  <button class="movie-list-item-button">Watch</button>
+</div>
+
+<div class="movie-list-item">
+  <img class="movie-list-item-img" src="/img/19.jpg" alt="Kung Fu Panda 4">
+  <span class="movie-list-item-title">Kung Fu Panda 4</span>
+  <p class="movie-list-item-desc">Po returns with new moves and challenges in this beloved animated martial arts saga.</p>
+  <button class="movie-list-item-button">Watch</button>
+</div>
+
+ 
+  </div>
+</section>
+
+<section class="movie-section">
+  <a class="section-headline" id ="best" >Best of All Time</a>
+  <div class="movie-grid" id="best-of-all-time">
+    <div class="movie-list-item">
+  <img class="movie-list-item-img" src="/img/9.jpg" alt="The Dark Knight">
+  <span class="movie-list-item-title">The Dark Knight</span>
+  <p class="movie-list-item-desc">Batman faces the Joker in a dark, thrilling battle for Gotham’s soul.</p>
+  <button class="movie-list-item-button">Watch</button>
+</div>
+
+<div class="movie-list-item">
+  <img class="movie-list-item-img" src="/img/1.jpeg" alt="Star Wars: The Force Awakens">
+  <span class="movie-list-item-title">Star Wars: The Force Awakens</span>
+  <p class="movie-list-item-desc">A new threat emerges, and heroes unite to battle the dark forces in the galaxy.</p>
+  <button class="movie-list-item-button">Watch</button>
+</div>
+
+<div class="movie-list-item">
+  <img class="movie-list-item-img" src="/img/2.jpeg" alt="Harry Potter and the Deathly Hallows">
+  <span class="movie-list-item-title">Harry Potter and the Deathly Hallows</span>
+  <p class="movie-list-item-desc">The final chapter of the Harry Potter saga as the battle against Voldemort intensifies.</p>
+  <button class="movie-list-item-button">Watch</button>
+</div>
+
+<div class="movie-list-item">
+  <img class="movie-list-item-img" src="/img/8.jpg" alt="Interstellar">
+  <span class="movie-list-item-title">Interstellar</span>
+  <p class="movie-list-item-desc">A journey beyond the stars to save humanity in this sci-fi epic.</p>
+  <button class="movie-list-item-button">Watch</button>
+</div>
+
+  </div>
+</section>
+
+<section class="movie-section">
+  <h2 id="trend" class="section-headline">Trending Now</h2>
+  <div class="movie-grid" id="trending-now">
+    <div class="movie-list-item">
+  <img class="movie-list-item-img" src="/img/13.jpg" alt="Mortal Kombat">
+  <span class="movie-list-item-title">Mortal Kombat</span>
+  <p class="movie-list-item-desc">A brutal martial arts tournament where fighters clash for ultimate supremacy.</p>
+  <button class="movie-list-item-button">Watch</button>
+</div>
+
+<div class="movie-list-item">
+  <img class="movie-list-item-img" src="/img/16.jpg" alt="Sisu">
+  <span class="movie-list-item-title">Sisu</span>
+  <p class="movie-list-item-desc">A gripping tale of survival and resilience in the harsh wilderness.</p>
+  <button class="movie-list-item-button">Watch</button>
+</div>
+
+<div class="movie-list-item">
+  <img class="movie-list-item-img" src="/img/15.jpg" alt="Shazam! Fury of the Gods">
+  <span class="movie-list-item-title">Shazam! Fury of the Gods</span>
+  <p class="movie-list-item-desc">The teenage superhero faces new powerful foes in this electrifying sequel.</p>
+  <button class="movie-list-item-button">Watch</button>
+</div>
+
+<div class="movie-list-item">
+  <img class="movie-list-item-img" src="/img/10.jpg" alt="Black Adam">
+  <span class="movie-list-item-title">Black Adam</span>
+  <p class="movie-list-item-desc">The anti-hero rises with immense power and a complex past in this DC saga.</p>
+  <button class="movie-list-item-button">Watch</button>
+</div>
+  </div>
+</section>
+
+<section class="movie-section">
+  <h2 class="section-headline">All Movies</h2>
+  <div class="movie-grid" id="all-movies">
+    <div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/1.jpeg" alt="">
+    <span class="movie-list-item-title">Her (2013)</span>
+    <p class="movie-list-item-desc">In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/2.jpeg" alt="">
+    <span class="movie-list-item-title">Star Wars: The Force Awakens</span>
+    <p class="movie-list-item-desc">Three decades after the Empire's defeat, a new threat arises: the First Order, led by the mysterious Kylo Ren.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/3.jpg" alt="">
+    <span class="movie-list-item-title">X-Men: Storm Rising</span>
+    <p class="movie-list-item-desc">Storm leads a faction of mutants against rising threats to mutantkind while grappling with her own powers.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/4.jpg" alt="">
+    <span class="movie-list-item-title">1917</span>
+    <p class="movie-list-item-desc">Two British soldiers race against time to deliver a message that could save 1,600 men during World War I.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/5.jpg" alt="">
+    <span class="movie-list-item-title">Avengers: Endgame</span>
+    <p class="movie-list-item-desc">After the devastating events of Infinity War, the Avengers assemble once more to undo Thanos' destruction.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/6.jpg" alt="">
+    <span class="movie-list-item-title">Inception</span>
+    <p class="movie-list-item-desc">A thief who steals corporate secrets through dreams is given a chance at redemption if he can accomplish inception.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/7.jpg" alt="">
+    <span class="movie-list-item-title">The Matrix</span>
+    <p class="movie-list-item-desc">A computer hacker learns about the true nature of reality and his role in the war against its controllers.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/8.jpg" alt="">
+    <span class="movie-list-item-title">Interstellar</span>
+    <p class="movie-list-item-desc">A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/9.jpg" alt="">
+    <span class="movie-list-item-title">Joker</span>
+    <p class="movie-list-item-desc">A mentally troubled comedian embarks on a downward spiral that leads to the creation of the infamous Joker.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/10.jpg" alt="">
+    <span class="movie-list-item-title">The Dark Knight</span>
+    <p class="movie-list-item-desc">Batman faces the Joker, a criminal mastermind who plunges Gotham into chaos in a battle of ideals and justice.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/11.jpg" alt="">
+    <span class="movie-list-item-title">Parasite</span>
+    <p class="movie-list-item-desc">A poor family schemes to become employed by a wealthy household by infiltrating their lives one by one.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/12.jpg" alt="">
+    <span class="movie-list-item-title">Tenet</span>
+    <p class="movie-list-item-desc">Armed with only one word—Tenet—and fighting for the survival of the world, a man journeys through time manipulation.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/13.jpg" alt="">
+    <span class="movie-list-item-title">Ford v Ferrari</span>
+    <p class="movie-list-item-desc">Car designer Carroll Shelby and driver Ken Miles challenge corporate interference to build a race-winning car for Ford.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/14.jpg" alt="">
+    <span class="movie-list-item-title">Dune</span>
+    <p class="movie-list-item-desc">A gifted young man must travel to the most dangerous planet to secure his family’s future and the survival of his people.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/15.jpg" alt="">
+    <span class="movie-list-item-title">Doctor Strange</span>
+    <p class="movie-list-item-desc">A brilliant but arrogant surgeon's life changes forever after a car accident leads him to the mystic arts.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/16.jpg" alt="">
+    <span class="movie-list-item-title">John Wick</span>
+    <p class="movie-list-item-desc">Legendary assassin John Wick is forced out of retirement to seek vengeance against those who wronged him.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/17.jpg" alt="">
+    <span class="movie-list-item-title">The Revenant</span>
+    <p class="movie-list-item-desc">A frontiersman fights for survival and justice after being mauled by a bear and left for dead by his team.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/18.jpg" alt="">
+    <span class="movie-list-item-title">Captain Marvel</span>
+    <p class="movie-list-item-desc">Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+<div class="movie-list-item">
+    <img class="movie-list-item-img" src="img/19.jpg" alt="">
+    <span class="movie-list-item-title">Black Panther</span>
+    <p class="movie-list-item-desc">T’Challa returns home to Wakanda to take the throne, but is challenged by a powerful enemy threatening his nation’s future.</p>
+    <button class="movie-list-item-button">Watch</button>
+</div>
+
+
+  </div>
+</section>
+
+ 
+
+  </main>
+
+  <script src="app.js"></script>
+
+  <footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-logo">Flakes</div>
+    <div class="footer-links">
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Terms</a>
+      <a href="#">Privacy</a>
+    </div>
+    <div class="footer-socials">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 Flakes. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
