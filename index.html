@@ -16,12 +16,17 @@
   <a href="#new">New Releases</a>
   <a href="#trend">Trending</a>
   <a href="#best">Top Rated</a>
+  <div class="search-container">
+ <input type="text" id="searchInput" placeholder="Search movies..." />
+  <button onclick="searchMovies()">Search</button>
+</div>
   <a class="btn-login" href="/Login/login.html">Login</a>
   <a class="btn-signup" href="/Signup/signup.html">Sign Up</a>
 </nav>
 
    
     </div>
+     
     <div class="hamburger">
       <span></span>
       <span></span>
@@ -45,13 +50,16 @@
   <!-- Sections -->
   <main class="content">
     <section class="movie-section">
-  <a id="new"class="section-headline">New Releases</a>
+  <h2 id="new"class="section-headline">New Releases</h2>
   <div class="movie-grid" id="new-releases">
     <div class="movie-list-item">
   <img class="movie-list-item-img" src="/img/18.jpg" alt="Godzilla x Kong: The New Empire">
   <span class="movie-list-item-title">Godzilla x Kong: The New Empire</span>
   <p class="movie-list-item-desc">The epic sequel bringing two titans into an all-out battle to determine who reigns supreme.</p>
   <button class="movie-list-item-button">Watch</button>
+  
+ 
+
 </div>
 
 <div class="movie-list-item">
@@ -288,6 +296,25 @@
   </main>
 
   <script src="app.js"></script>
+
+
+
+  <section class="review-section">
+    <h2 class="section-headline">Rate This Website</h2>
+    <form class="review-form">
+      <input type="text" placeholder="Your Name" required>
+      <textarea placeholder="Write your review..." required></textarea>
+      <div class="star-rating">
+        <input type="radio" name="rating" value="5" id="star5"><label for="star5">&#9733;</label>
+        <input type="radio" name="rating" value="4" id="star4"><label for="star4">&#9733;</label>
+        <input type="radio" name="rating" value="3" id="star3"><label for="star3">&#9733;</label>
+        <input type="radio" name="rating" value="2" id="star2"><label for="star2">&#9733;</label>
+        <input type="radio" name="rating" value="1" id="star1"><label for="star1">&#9733;</label>
+      </div>
+      <button type="submit" class="btn-submit">Submit Review</button>
+    </form>
+  </section>
+
 
   <footer class="site-footer">
   <div class="footer-content">
